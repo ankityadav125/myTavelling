@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    position: absolute;
+    height: 80%;
+    width: 90%;
+    /* background-color: red; */
+    top: 10%;
+    left: 5%;
+    background-image: url(https://images.unsplash.com/photo-1566413468912-91f8b09020fa?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 2px 5px 9px 5px black;
+    border-radius: 5px;
+}
+
+nav{
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: grey; */
+    border-bottom: 1px solid white;
+}
+
+.logo{
+    margin: 60px;
+}
+.logo h1{
+    font-weight: bold;
+    color: white;
+    transition: .6s ease;
+}
+.logo span{
+    font-weight: 50;
+    color: grey;
+}
+.logo h1:hover{
+    color: red;
+    transition: .6s ease;
+    cursor: pointer;
+
+}
+
+.logo span:hover{
+    color: green;
+    cursor: pointer;
+}
+
+.menu a{
+    text-decoration: none;
+    margin-right: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.menu a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.text{
+    /* margin-left: 60px; */
+    margin: 70px 60px;
+}
+.text p{
+    margin: 10px;
+    color: white;
+    line-height: 20px;
+}
+
+.text h1{
+    font-size: 50px;
+    color: white;
+}
+
+button{
+    margin: 10px;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(132, 119, 119);
+    color: white;
+    transition: .6s ease;
+}
+
+button:hover{
+    background-color: red;
+    color: black;
+    cursor: pointer;
+}
+
+.icon{
+    margin: 60px;
+}
+.icon i{
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 8px;
+    transition: .6s ease;
+}
+
+.icon i:hover{
+    color: red;
+    cursor: pointer;
+}
